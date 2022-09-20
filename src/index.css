@@ -1,0 +1,46 @@
+body {
+  font-size: 1.5rem;
+}
+.image {
+  width: 300px;
+}
+
+.card {
+  padding: 2rem;
+  box-shadow: 0 0 15px 0 hsl(201, 90%, 38%);
+}
+
+.card-container {
+  /* background-image: url(https://picsum.photos/800/600);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+  background-color: hsl(200, 100%, 91%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.btn {
+  font-size: inherit;
+}
+
+.image-container {
+  text-align: center;
+  
+}
+
+@media (max-width:500px) {
+  .image {
+    width: 200px;
+    
+  }
+  .image-container{
+    margin-top: 3rem;
+  }
+
+  body {
+    font-size: 1.25rem;
+  }
+  }
